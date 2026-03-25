@@ -192,7 +192,7 @@
 </template>
 
 <script setup>
-import { Layers, ArrowRight, Play, Brain, LineChart, AlertTriangle } from 'lucide-vue-next'
+import { Layers, ArrowRight, Brain, LineChart, AlertTriangle } from 'lucide-vue-next'
 </script>
 
 <style scoped>
