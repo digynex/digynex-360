@@ -65,11 +65,14 @@
           <div class="absolute -inset-1 bg-gradient-to-r from-primary via-accent to-blue-600 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
           <div class="relative w-full aspect-video rounded-2xl bg-[#0f172a] border border-slate-700/50 shadow-2xl overflow-hidden flex flex-col cursor-pointer group/video">
              
-             <!-- Actual Demo Video with Poster (No Autoplay) -->
-             <video class="absolute inset-0 w-full h-full object-cover z-20 group-hover/video:scale-[1.02] transition-transform duration-1000 bg-[#0f172a]" controls preload="metadata" poster="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop">
+             <!-- Actual Demo Video with Poster (Commented out to pass build until YouTube link is ready) -->
+             <!-- <video class="absolute inset-0 w-full h-full object-cover z-20 group-hover/video:scale-[1.02] transition-transform duration-1000 bg-[#0f172a]" controls preload="metadata" poster="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop">
                 <source src="/demo.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
-             </video>
+             </video> -->
+             <div class="absolute inset-0 bg-[#0f172a] flex items-center justify-center">
+                <p class="text-slate-500 text-sm italic">Video Demo Coming Soon...</p>
+             </div>
 
           </div>
         </div>
