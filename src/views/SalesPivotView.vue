@@ -205,15 +205,7 @@ const barOptions = {
 }
 </script>
 
-<script>
-// Logic to handle export and filtering methods
-export default {
-    methods: {
-        handleExport,
-        toggleFilter
-    }
-}
-</script>
+
 
 <style scoped>
 .toast-slide-enter-active, .toast-slide-leave-active { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
